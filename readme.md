@@ -26,7 +26,7 @@ Desafio do HackerRank - Grupo Tech
 
 ---
 
-<p align="center">
+<p>
   Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> propostos pelo Grupo Tech.
   <br><br>
   A ideia é resolver os desafios utilizando
