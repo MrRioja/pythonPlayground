@@ -17,8 +17,7 @@ Desafio do HackerRank - Grupo Tech
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#tindev">Desafios</a> •
-  <a href="#autor">Autor</a>
+  <a href="#desafios">Desafios</a> •
 </p>
 
 <br><br><br>
@@ -27,7 +26,7 @@ Desafio do HackerRank - Grupo Tech
 
 ---
 
-<p align="center">
+<p>
   Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> propostos pelo Grupo Tech.
   <br><br>
   A ideia é resolver os desafios utilizando
