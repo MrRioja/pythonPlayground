@@ -43,3 +43,7 @@ Desafio do HackerRank - Grupo Tech
 <strong><a href="https://www.hackerrank.com/challenges/birthday-cake-candles/problem">Desafio 1 - Birthday Cake Candles</a></strong>
 
 <strong><a href="https://www.hackerrank.com/challenges/simple-array-sum/problem">Desafio 2 - Simple Array Sum</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/time-conversion/problem">Desafio 3 - Time Conversion</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/diagonal-difference/problem">Desafio 4 - Diagonal Difference</a></strong>
