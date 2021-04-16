@@ -17,8 +17,7 @@ Desafio do HackerRank - Grupo Tech
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#tindev">Desafios</a> •
-  <a href="#autor">Autor</a>
+  <a href="#desafios">Desafios</a> •
 </p>
 
 <br><br><br>
