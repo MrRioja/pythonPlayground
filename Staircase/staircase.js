@@ -23,8 +23,7 @@ function staircase(n) {
       }
     }
   }
-
-  return staircase;
+  console.log(staircase);
 }
 
-console.log(staircase(3));
+staircase(10);
