@@ -7,4 +7,20 @@
 #  ###
 # ####
 
-# def staircase(n):
+def staircase(n):
+    staircase = ""
+
+    for index in range(n):
+        if (index > 0):
+            staircase += "\n"
+
+        for aux in range(n):
+            if (aux + 1 >= n - index):
+                staircase += "#"
+            else:
+                staircase += " "
+
+    print(staircase)
+
+
+staircase(3)
