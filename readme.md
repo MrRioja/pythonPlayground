@@ -46,3 +46,7 @@ Desafio do HackerRank - Grupo Tech
 <strong><a href="https://www.hackerrank.com/challenges/time-conversion/problem">Desafio 3 - Time Conversion</a></strong>
 
 <strong><a href="https://www.hackerrank.com/challenges/diagonal-difference/problem">Desafio 4 - Diagonal Difference</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/staircase/problem">Desafio 5 - Staircase</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/camelcase/problem">Desafio 6 - CamelCase</a></strong>
