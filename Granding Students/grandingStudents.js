@@ -10,3 +10,11 @@
 // grade = 29 do not round(result is less than 40)
 // grade = 57 do not round(60 - 57 is 3 or higher)
 // Given the initial value of grade for each of Sam's n students, write code to automate the rounding process.
+
+function gradingStudents(grades) {
+  let roundGrades = [];
+
+  return roundGrades;
+}
+
+console.log(gradingStudents([73, 67, 38, 33]));
