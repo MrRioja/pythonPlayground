@@ -14,7 +14,23 @@
 function gradingStudents(grades) {
   let roundGrades = [];
 
+  grades.forEach((grade) => {
+    if (grade < 38) {
+      roundGrades.push(grade);
+    } else {
+      let roundGrade = grade;
+
+      for (let i = 0; i < 3; i++) {
+        if (/\d{1,2}(5|0)/g.exec(grade + i)) {
+          roundGrade += i;
+          break;
+        }
+      }
+      roundGrades.push(roundGrade);
+    }
+  });
+
   return roundGrades;
 }
 
-console.log(gradingStudents([73, 67, 38, 33]));
+console.log(gradingStudents([98, 84, 99, 29, 57, 100]));
