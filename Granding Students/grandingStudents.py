@@ -10,3 +10,27 @@
 # grade = 29 do not round(result is less than 40)
 # grade = 57 do not round(60 - 57 is 3 or higher)
 # Given the initial value of grade for each of Sam's n students, write code to automate the rounding process.
+
+import re
+
+
+def gradingStudents(grades):
+    roundGrades = []
+
+    for grade in grades:
+        if (grade < 38):
+            roundGrades.append(grade)
+        else:
+            roundGrade = grade
+
+            for i in range(3):
+                if(re.findall('\d{1,2}(5|0)', str(grade + i))):
+                    roundGrade += i
+                    break
+
+            roundGrades.append(roundGrade)
+
+    return roundGrades
+
+
+print(gradingStudents([98, 84, 99, 29, 57, 100]))
