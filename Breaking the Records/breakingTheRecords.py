@@ -5,3 +5,6 @@
 # Example:
 # scores = [12,24,10,24]
 # Scores are in the same order as the games played. She tabulates her results as follows:
+
+def breakingRecords(scores):
+    return
