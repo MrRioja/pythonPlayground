@@ -17,7 +17,8 @@ Desafios de algoritmos - Grupo Tech
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#desafios">Desafios</a> •
+  <a href="#desafios-hackerrank">Desafios HackerRank</a> •
+  <a href="#desafios-leetcode">Desafios LeetCode</a> •
 </p>
 
 <br><br><br>
