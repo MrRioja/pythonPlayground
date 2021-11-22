@@ -15,13 +15,17 @@ stones = "aAAbbbb"
 
 def numJewelsInStones(jewels: str, stones: str) -> int:
     numJewels = 0
+    jewels = set(jewels)
 
     for stone in stones:
-        for jewel in jewels:
-            if stone == jewel:
-                numJewels += 1
+        if stone in jewels:
+            numJewels += 1
 
     return numJewels
 
 
 print(numJewelsInStones(jewels, stones))
+
+
+# se vc fosse criar testes unitários em pytest para Intersection of Two Arrays e shuffleString, quais seriam?
+# consegue escrever em python alguns exemplos simples?

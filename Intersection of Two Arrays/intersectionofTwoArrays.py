@@ -15,12 +15,7 @@ nums2 = [2, 2]
 
 
 def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
-    intersectionNums = []
-
-    for num1 in nums1:
-        for num2 in nums2:
-            if num1 == num2 and num1 not in intersectionNums:
-                intersectionNums.append(num1)
+    intersectionNums = set(nums1) & set(nums2)
 
     return intersectionNums
 
