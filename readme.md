@@ -54,6 +54,12 @@ Desafios de algoritmos - Grupo Tech
 
 <strong><a href="https://www.hackerrank.com/challenges/grading/problem">Desafio 7 - Grading Students</a></strong>
 
+<strong><a href="https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem">Desafio 8 - Breaking the Records</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/list-comprehensions/problem">Desafio 9 - List Comprehensions</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/kangaroo/problem">Desafio 10 - Number Line Jumps</a></strong>
+
 ## Desafios LeetCode
 
 <strong><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Desafio 1 - Intersection of Two Arrays</a></strong>
