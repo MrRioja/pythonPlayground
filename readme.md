@@ -4,7 +4,7 @@
 </p>
 
 <h3 align="center">
-Desafio do HackerRank - Grupo Tech
+Desafios de algoritmos - Grupo Tech
 </h3>
 
 <br><br>
@@ -27,7 +27,7 @@ Desafio do HackerRank - Grupo Tech
 ---
 
 <p>
-  Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> propostos pelo Grupo Tech.
+  Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> e <strong><a href="https://leetcode.com/">LeetCode</a></strong> propostos pelo Grupo Tech.
   <br><br>
   A ideia é resolver os desafios utilizando
   <strong><a href="https://www.python.org/">Python</a></strong>, para impulsionar o aprendizado na linguagem e despertar o raciocínio lógico dos membros da equipe.
@@ -35,7 +35,7 @@ Desafio do HackerRank - Grupo Tech
 
 <br><br>
 
-## Desafios
+## Desafios HackerRank
 
 ---
 
@@ -50,3 +50,13 @@ Desafio do HackerRank - Grupo Tech
 <strong><a href="https://www.hackerrank.com/challenges/staircase/problem">Desafio 5 - Staircase</a></strong>
 
 <strong><a href="https://www.hackerrank.com/challenges/camelcase/problem">Desafio 6 - CamelCase</a></strong>
+
+<strong><a href="https://www.hackerrank.com/challenges/grading/problem">Desafio 7 - Grading Students</a></strong>
+
+## Desafios LeetCode
+
+<strong><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Desafio 1 - Intersection of Two Arrays</a></strong>
+
+<strong><a href="https://leetcode.com/problems/jewels-and-stones/">Desafio 2 - Jewels and Stones</a></strong>
+
+<strong><a href="https://leetcode.com/problems/shuffle-string/">Desafio 3 - Shuffle String</a></strong>
