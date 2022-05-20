@@ -60,6 +60,8 @@ Desafios de algoritmos - Grupo Tech
 
 <strong><a href="https://www.hackerrank.com/challenges/kangaroo/problem">Desafio 10 - Number Line Jumps</a></strong>
 
+<strong><a href="https://www.hackerrank.com/challenges/swap-case/problem">Desafio 11 - Swap case</a></strong>
+
 ## Desafios LeetCode
 
 <strong><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Desafio 1 - Intersection of Two Arrays</a></strong>
