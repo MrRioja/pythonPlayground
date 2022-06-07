@@ -2,5 +2,14 @@
 # convert all lowercase letters to uppercase letters and vice versa.
 # Ex: Www.HackerRank.com => wWW.hACKERrANK.COM
 
+import re
+
 def swap_case(s):
-    return
+    upper = re.compile('[A-Z]')
+    
+    return ''.join([
+        w.lower() 
+        if re.match(upper, w) else w.upper() for w in word
+    ])
+
+print(swapCases('WwW.TeStE.cOm'))
