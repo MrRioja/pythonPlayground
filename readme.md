@@ -65,6 +65,8 @@ Desafios de algoritmos - Grupo Tech
 
 <strong><a href="https://www.hackerrank.com/challenges/swap-case/problem">Desafio 11 - Swap case</a></strong>
 
+<strong><a href="https://www.hackerrank.com/challenges/three-month-preparation-kit-plus-minus/problem?h_r=internal-search">Desafio 12 - Plus Minus</a></strong>
+
 ## Desafios LeetCode
 
 <strong><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Desafio 1 - Intersection of Two Arrays</a></strong>
