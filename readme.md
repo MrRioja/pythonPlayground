@@ -71,6 +71,8 @@ Desafios de algoritmos - Grupo Tech
 
 <strong><a href="https://www.hackerrank.com/challenges/sparse-arrays/problem?h_r=internal-search">Desafio 14 - Sparse Arrays</a></strong>
 
+<strong><a href="https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem?h_r=internal-search">Desafio 15 - Lonely Integer</a></strong>
+
 ## Desafios LeetCode
 
 <strong><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Desafio 1 - Intersection of Two Arrays</a></strong>
