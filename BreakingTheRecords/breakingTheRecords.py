@@ -5,6 +5,33 @@
 # Example:
 # scores = [12,24,10,24]
 # Scores are in the same order as the games played. She tabulates her results as follows:
+#                                  Count
+# Game  Score  Minimum  Maximum   Min Max
+# 0      12     12       12       0   0
+# 1      24     12       24       0   1
+# 2      10     10       24       1   1
+# 3      24     10       24       1   1
+#
+# Given the scores for a season, determine the number of times Maria breaks her records for most and least points
+# scored during the season.
 
-def breakingRecords(scores):
-    return
+def breaking_records(scores):
+
+    min_score = [0, scores[0]]
+    max_score = [0, scores[0]]
+
+    for score in scores:
+        if score > max_score[1]:
+            max_score[0] += 1
+            max_score[1] = score
+        if score < min_score[1]:
+            min_score[0] += 1
+            min_score[1] = score
+
+    print(max_score[0], min_score[0])
+
+
+scores = [12, 24, 10, 24]
+scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42]
+
+breaking_records(scores)
