@@ -2,6 +2,16 @@
 // convert all lowercase letters to uppercase letters and vice versa.
 // Ex: Www.HackerRank.com => wWW.hACKERrANK.COM
 
-function swap_case(s) {
-  return;
+function swapCase(s) {
+  return s
+    .split("")
+    .map((letter) =>
+      /[A-Z]/g.exec(letter) ? letter.toLowerCase() : letter.toUpperCase()
+    )
+    .join("");
 }
+
+const string = "Www.HackerRank.com"; // wWW.hACKERrANK.COM
+// const string = "Pythonist 2"; // pYTHONIST 2
+
+console.log(swapCase(string));
