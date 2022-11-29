@@ -12,4 +12,28 @@
 // v2 = 2
 // After one jump, they are both at x = 3, (x1 + v1 = 2 + 1, x2 + v2 = 1 + 2), so the answer is YES.
 
-function kangaroo(x1, v1, x2, v2) {}
+function kangaroo(x1, v1, x2, v2) {
+  if (x2 > x1 && v2 > v1) {
+    return "NO";
+  }
+
+  let jump = 1;
+
+  while (jump < 10000) {
+    if (x1 + v1 * jump == x2 + v2 * jump) {
+      console.log(jump);
+
+      return "YES";
+    }
+
+    jump += 1;
+  }
+
+  return "NO";
+}
+
+const parameters = [4523, 8092, 9419, 8076];
+
+const [x1, v1, x2, v2] = parameters;
+
+console.log(kangaroo(x1, v1, x2, v2));
