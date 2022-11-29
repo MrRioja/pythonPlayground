@@ -4,12 +4,14 @@
 
 import re
 
+
 def swap_case(s):
     upper = re.compile('[A-Z]')
-    
+
     return ''.join([
-        w.lower() 
-        if re.match(upper, w) else w.upper() for w in word
+        w.lower()
+        if re.match(upper, w) else w.upper() for w in s
     ])
 
-print(swapCases('WwW.TeStE.cOm'))
+
+print(swap_case('WwW.TeStE.cOm'))
