@@ -8,12 +8,6 @@
 // The right to left diagonal = 3 + 5 + 9 = 17.
 // Their absolute difference is | 15 - 17| = 2.
 
-var array = [
-  [11, 2, 4],
-  [4, 5, 6],
-  [10, 8, -12],
-];
-
 function getDiagonalDifference(array) {
   let leftToRight = getSumDiagonalLeftRight(array);
   let rightToLeft = getSumDiagonalRightLeft(array);
@@ -43,5 +37,11 @@ function getSumDiagonalRightLeft(array) {
 
   return sumDiagonal;
 }
+
+const array = [
+  [11, 2, 4],
+  [4, 5, 6],
+  [10, 8, -12],
+];
 
 console.log(getDiagonalDifference(array));
