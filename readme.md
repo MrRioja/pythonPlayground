@@ -10,7 +10,7 @@ Desafios de algoritmos - Grupo Tech
 <br><br>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=grupo-tech&message=21&color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=grupo-tech&message=22&color=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/OmniStack-8?color=yellow&logo=License&style=for-the-badge"/>
 </p>
 <br>
