@@ -5,23 +5,17 @@
 // Input: jewels = "aA", stones = "aAAbbbb"
 // Output: 3
 
-const jewels = "aA";
-const stones = "aAAbbbb";
-
-// const jewels = "z";
-// const stones = "ZZ";
-
 /**
  * @param {string} jewels
  * @param {string} stones
  * @return {number}
  */
 function numJewelsInStones(jewels, stones) {
-  numJewels = 0;
+  let numJewels = 0;
 
-  for (let i = 0; i < stones.length; i++) {
-    for (let j = 0; j < jewels.length; j++) {
-      if (stones[i] == jewels[j]) {
+  for (const stone of stones) {
+    for (const jewel of jewels) {
+      if (stone == jewel) {
         numJewels += 1;
       }
     }
@@ -29,5 +23,8 @@ function numJewelsInStones(jewels, stones) {
 
   return numJewels;
 }
+
+const jewels = "z";
+const stones = "ZZ";
 
 console.log(numJewelsInStones(jewels, stones));
