@@ -15,9 +15,9 @@ nums2 = [2, 2]
 
 
 def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
-    intersectionNums = set(nums1) & set(nums2)
+    intersection_nums = set(nums1) & set(nums2)
 
-    return intersectionNums
+    return intersection_nums
 
 
 print(intersection(nums1, nums2))

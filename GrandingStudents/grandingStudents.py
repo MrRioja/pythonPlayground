@@ -14,23 +14,23 @@
 import re
 
 
-def gradingStudents(grades):
-    roundGrades = []
+def grading_students(grades):
+    round_grades = []
 
     for grade in grades:
         if (grade < 38):
-            roundGrades.append(grade)
+            round_grades.append(grade)
         else:
-            roundGrade = grade
+            round_grade = grade
 
             for i in range(3):
-                if(re.findall('\d{1,2}(5|0)', str(grade + i))):
-                    roundGrade += i
+                if(re.findall('\d{1,2}[5|0]', str(grade + i))):
+                    round_grade += i
                     break
 
-            roundGrades.append(roundGrade)
+            round_grades.append(round_grade)
 
-    return roundGrades
+    return round_grades
 
 
-print(gradingStudents([98, 84, 99, 29, 57, 100]))
+print(grading_students([98, 84, 99, 29, 57, 100]))

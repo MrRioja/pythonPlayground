@@ -21,7 +21,7 @@ function gradingStudents(grades) {
       let roundGrade = grade;
 
       for (let i = 0; i < 3; i++) {
-        if (/\d{1,2}(5|0)/g.exec(grade + i)) {
+        if (/\d{1,2}[5|0]/g.exec(grade + i)) {
           roundGrade += i;
           break;
         }
