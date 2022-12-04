@@ -12,6 +12,5 @@ function swapCase(s) {
 }
 
 const string = "Www.HackerRank.com"; // wWW.hACKERrANK.COM
-// const string = "Pythonist 2"; // pYTHONIST 2
 
 console.log(swapCase(string));

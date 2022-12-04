@@ -9,7 +9,7 @@
 # 0.200000
 
 
-def plusMinus(arr):
+def plus_minus(arr):
     positive = [num for num in arr if num > 0]
     negative = [num for num in arr if num < 0]
     zero = [num for num in arr if num == 0]
@@ -23,4 +23,4 @@ def plusMinus(arr):
 
 arr = [1, 1, 0, -1, -1]
 
-plusMinus(arr)
+plus_minus(arr)

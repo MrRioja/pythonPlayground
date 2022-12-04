@@ -8,20 +8,17 @@
 
 from typing import List
 
-s = "codeleet"
-indices = [4, 5, 6, 7, 0, 2, 1, 3]
 
-# s = "aaiougrt"
-# indices = [4, 0, 2, 6, 7, 3, 1, 5]
-
-
-def restoreString(s: str, indices: List[int]) -> str:
-    unscrambledWord = ''
+def restore_string(s: str, indices: List[int]) -> str:
+    unscrambled_word = ''
 
     for index in range(len(s)):
-        unscrambledWord += s[indices.index(index)]
+        unscrambled_word += s[indices.index(index)]
 
-    return unscrambledWord
+    return unscrambled_word
 
 
-print(restoreString(s, indices))
+s = "aaiougrt"
+indices = [4, 0, 2, 6, 7, 3, 1, 5]
+
+print(restore_string(s, indices))
