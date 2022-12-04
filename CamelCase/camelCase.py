@@ -9,10 +9,10 @@
 import re
 
 
-def camelcase(s):
+def camel_case(s):
     words = len(re.findall("[A-Z]", s))
 
     return words + 1
 
 
-print(camelcase("saveChangesInTheEditor"))
+print(camel_case("saveChangesInTheEditor"))

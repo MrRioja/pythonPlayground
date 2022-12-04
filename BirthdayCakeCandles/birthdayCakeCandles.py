@@ -7,7 +7,7 @@
 candles = [4, 5, 1, 9, 10, 900, 30, 4, 4, 7, 4]
 
 
-def birthdayCakeCandles(candles):
+def birth_day_cake_candles(candles):
     tallest = max(int(candle) for candle in candles)
     total = 0
 
@@ -18,4 +18,4 @@ def birthdayCakeCandles(candles):
     return total
 
 
-birthdayCakeCandles(candles)
+birth_day_cake_candles(candles)
