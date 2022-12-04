@@ -32,7 +32,6 @@ function breakingRecords(scores) {
   console.log(max_score[0], min_score[0]);
 }
 
-// const scores = [12, 24, 10, 24];
 const scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42];
 
 breakingRecords(scores);
