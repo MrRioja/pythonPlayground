@@ -14,26 +14,31 @@
 #     strings_count = Counter(strings)
 #     return [strings_count[x] for x in queries]
 
+# def matching_strings(strings, queries):
+#     return [
+#         strings.count(query)
+#         for query in queries
+#     ]
+
 
 def matching_strings(strings, queries):
-    total_per_item = {}
+    total_per_item = {
+        query: 0
+        for query in queries
+    }
     results = []
 
     for query in queries:
-        if query in total_per_item:
+        if total_per_item[query] > 0:
             results.append(total_per_item[query])
 
             continue
 
         for string in strings:
             if query == string:
-                total_per_item[query] = total_per_item.get(query, 0) + 1
+                total_per_item[query] += 1
 
-        if query not in total_per_item:
-            total_per_item[query] = 0
-            results.append(total_per_item[query])
-        else:
-            results.append(total_per_item[query])
+        results.append(total_per_item[query])
 
     return results
 
