@@ -12,17 +12,17 @@ def time_conversion(s):
 
     if (turn == "AM"):
         if (int(hours) == 12):
-            converted_hour = "00:" + minutes + ":" + seconds
+            converted_hour = "00"
         else:
-            converted_hour = str(hours) + ":" + minutes + ":" + seconds
+            converted_hour = str(hours)
     else:
         if (int(hours) == 12):
-            converted_hour = str(hours) + ":" + minutes + ":" + seconds
+            converted_hour = str(hours)
         else:
             hours = int(hours) + 12
-            converted_hour = str(hours) + ":" + minutes + ":" + seconds
+            converted_hour = str(hours)
 
-    return converted_hour
+    return converted_hour + ":" + minutes + ":" + seconds
 
 
 print(time_conversion("07:05:45PM"))  # 19:05:45

@@ -10,14 +10,23 @@
 
 
 def plus_minus(arr):
-    positive = [num for num in arr if num > 0]
-    negative = [num for num in arr if num < 0]
-    zero = [num for num in arr if num == 0]
+    positive = 0
+    negative = 0
+    zero = 0
+    total = len(arr)
+
+    for num in arr:
+        if num > 0:
+            positive += 1
+        elif num < 0:
+            negative += 1
+        else:
+            zero += 1
 
     print(
-        f'{(len(positive)/len(arr)):.6f}',
-        f'\n{len(negative)/len(arr):.6f}',
-        f'\n{len(zero)/len(arr):.6f}'
+        f'{(positive/total):.6f}',
+        f'\n{negative/total:.6f}',
+        f'\n{zero/total:.6f}'
     )
 
 
