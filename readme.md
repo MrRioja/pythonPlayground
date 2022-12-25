@@ -7,8 +7,6 @@
 Desafios de algoritmos - Grupo Tech
 </h3>
 
-<br><br>
-
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=grupo-tech&message=22&color=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/OmniStack-8?color=yellow&logo=License&style=for-the-badge"/>
@@ -24,24 +22,16 @@ Desafios de algoritmos - Grupo Tech
   <a href="#autor">Autor</a>
 </p>
 
-<br><br><br>
+<br>
 
 ## Sobre
 
----
+Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> e <strong><a href="https://leetcode.com/">LeetCode</a></strong> propostos pelo Grupo Tech.
 
-<p>
-  Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> e <strong><a href="https://leetcode.com/">LeetCode</a></strong> propostos pelo Grupo Tech.
-  <br><br>
-  A ideia é resolver os desafios utilizando
-  <strong><a href="https://www.python.org/">Python</a></strong>, para impulsionar o aprendizado na linguagem e despertar o raciocínio lógico dos membros da equipe.
-</p>
-
-<br><br>
+A ideia é resolver os desafios utilizando
+<strong><a href="https://www.python.org/">Python</a></strong>, para impulsionar o aprendizado na linguagem e despertar o raciocínio lógico dos membros da equipe.
 
 ## Desafios HackerRank
-
----
 
 <strong><a href="https://www.hackerrank.com/challenges/birthday-cake-candles/problem">Desafio 1 - Birthday Cake Candles</a></strong>
 
