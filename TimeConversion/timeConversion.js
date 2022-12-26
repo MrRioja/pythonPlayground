@@ -12,20 +12,20 @@ function timeConversion(s) {
 
   if (turn === "AM") {
     if (parseInt(hours) === 12) {
-      convertedHour = "00:" + minutes + ":" + seconds;
+      convertedHour = "00";
     } else {
-      convertedHour = hours + ":" + minutes + ":" + seconds;
+      convertedHour = hours;
     }
   } else {
     if (parseInt(hours) === 12) {
-      convertedHour = hours + ":" + minutes + ":" + seconds;
+      convertedHour = hours;
     } else {
       hours = parseInt(hours) + 12;
-      convertedHour = hours + ":" + minutes + ":" + seconds;
+      convertedHour = hours;
     }
   }
 
-  return convertedHour;
+  return convertedHour + ":" + minutes + ":" + seconds;
 }
 
 console.log(timeConversion("07:05:45PM")); // 19:05:45
