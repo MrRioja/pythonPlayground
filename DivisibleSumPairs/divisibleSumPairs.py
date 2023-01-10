@@ -5,4 +5,19 @@
 # Three pairs meet the criteria: [1, 4], [2, 3] and [4, 6].
 
 def divisible_sum_pairs(n, k, ar):
-    return
+
+    count = 0
+
+    for i in range(n):
+        for j in range(i+1, n):
+            if (ar[i] + ar[j]) % k == 0:
+                print(ar[i], ar[j])
+                count += 1
+
+    return count
+
+
+n = 6
+k = 3
+ar = [1, 3, 2, 6, 1, 2]
+print(divisible_sum_pairs(n, k, ar))
