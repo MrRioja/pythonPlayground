@@ -5,5 +5,22 @@
 // Three pairs meet the criteria: [1, 4], [2, 3] and [4, 6].
 
 function divisibleSumPairs(n, k, ar) {
-  return;
+  let count = 0;
+
+  for (let i = 0; i < n; i++) {
+    for (let j = i + 1; j < n; j++) {
+      if (ar[i] < ar[j] && (ar[i] + ar[j]) % k == 0) {
+        console.log(ar[i], ar[j]);
+        count += 1;
+      }
+    }
+  }
+
+  return count;
 }
+
+const n = 6;
+const k = 3;
+const ar = [1, 3, 2, 6, 1, 2];
+
+console.log(divisibleSumPairs(n, k, ar));
