@@ -33,51 +33,57 @@ A ideia é resolver os desafios utilizando
 
 ## Desafios HackerRank
 
-<strong><a href="https://www.hackerrank.com/challenges/birthday-cake-candles/problem">Desafio 1 - Birthday Cake Candles</a></strong>
+[Desafio 1 - Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/simple-array-sum/problem">Desafio 2 - Simple Array Sum</a></strong>
+[Desafio 2 - Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/time-conversion/problem">Desafio 3 - Time Conversion</a></strong>
+[Desafio 3 - Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/diagonal-difference/problem">Desafio 4 - Diagonal Difference</a></strong>
+[Desafio 4 - Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/staircase/problem">Desafio 5 - Staircase</a></strong>
+[Desafio 5 - Staircase](https://www.hackerrank.com/challenges/staircase/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/camelcase/problem">Desafio 6 - CamelCase</a></strong>
+[Desafio 6 - CamelCase](https://www.hackerrank.com/challenges/camelcase/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/grading/problem">Desafio 7 - Grading Students</a></strong>
+[Desafio 7 - Grading Students](https://www.hackerrank.com/challenges/grading/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem">Desafio 8 - Breaking the Records</a></strong>
+[Desafio 8 - Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/list-comprehensions/problem">Desafio 9 - List Comprehensions</a></strong>
+[Desafio 9 - List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/kangaroo/problem">Desafio 10 - Number Line Jumps</a></strong>
+[Desafio 10 - Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/swap-case/problem">Desafio 11 - Swap case</a></strong>
+[Desafio 11 - Swap case](https://www.hackerrank.com/challenges/swap-case/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/three-month-preparation-kit-plus-minus/problem?h_r=internal-search">Desafio 12 - Plus Minus</a></strong>
+[Desafio 12 - Plus Minus](https://www.hackerrank.com/challenges/three-month-preparation-kit-plus-minus/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=internal-search">Desafio 13 - Mini-Max Sum</a></strong>
+[Desafio 13 - Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=internal-search)
 
-<strong><a href="https://www.hackerrank.com/challenges/sparse-arrays/problem?h_r=internal-search">Desafio 14 - Sparse Arrays</a></strong>
+[Desafio 14 - Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem?h_r=internal-search)
 
-<strong><a href="https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem?h_r=internal-search">Desafio 15 - Lonely Integer</a></strong>
+[Desafio 15 - Lonely Integer](https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem)
 
-<strong><a href="https://www.hackerrank.com/challenges/flipping-bits/problem?h_r=internal-search">Desafio 16 - Flipping Bits</a></strong>
+[Desafio 16 - Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)
+
+[Desafio 17 - CamelCase 4](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem)
+
+[Desafio 18 - Counting Sort](https://www.hackerrank.com/challenges/countingsort1/problem)
+
+[Desafio 19 - Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)
 
 ## Desafios LeetCode
 
-<strong><a href="https://leetcode.com/problems/intersection-of-two-arrays/">Desafio 1 - Intersection of Two Arrays</a></strong>
+[Desafio 1 - Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 
-<strong><a href="https://leetcode.com/problems/jewels-and-stones/">Desafio 2 - Jewels and Stones</a></strong>
+[Desafio 2 - Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 
-<strong><a href="https://leetcode.com/problems/shuffle-string/">Desafio 3 - Shuffle String</a></strong>
+[Desafio 3 - Shuffle String](https://leetcode.com/problems/shuffle-string/)
 
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Python](https://www.python.org/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🖥 Rodando as soluções
 
