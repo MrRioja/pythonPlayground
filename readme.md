@@ -2,16 +2,14 @@
   <img src="./readme/py.png" alt="Logo" width="100"/>
   <br>
 </p>
-
 <h3 align="center">
-Desafios de algoritmos - Grupo Tech
+Python Playground
 </h3>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=grupo-tech&message=22&color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=python&message=playground&color=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/OmniStack-8?color=yellow&logo=License&style=for-the-badge"/>
 </p>
-<br>
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
@@ -22,11 +20,9 @@ Desafios de algoritmos - Grupo Tech
   <a href="#autor">Autor</a>
 </p>
 
-<br>
-
 ## Sobre
 
-Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> e <strong><a href="https://leetcode.com/">LeetCode</a></strong> propostos pelo Grupo Tech.
+Repositório para guardar os códigos dos desafios do <strong><a href="https://www.hackerrank.com/">HackerRank</a></strong> e <strong><a href="https://leetcode.com/">LeetCode</a></strong> propostos pelo grupo de estudos.
 
 A ideia é resolver os desafios utilizando
 <strong><a href="https://www.python.org/">Python</a></strong>, para impulsionar o aprendizado na linguagem e despertar o raciocínio lógico dos membros da equipe.
@@ -107,7 +103,7 @@ $ node camelCase.js
 
 <img align="left" src="./readme/py.png" alt="Python" height="60" />
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ## Autor
 
