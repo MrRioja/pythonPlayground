@@ -91,7 +91,7 @@ $ git clone git@github.com:MrRioja/pythonPlayground.git
 $ cd pythonPlayground
 
 # Acesse a pasta de um desafio no terminal/cmd
-$ cd CamelCase
+$ cd HackerRank/CamelCase
 
 # Execute a solução em Python ou NodeJS executando os respectivos arquivos que estarão dentro das pastas dos desafios
 # Python
