@@ -8,7 +8,7 @@ Python Playground
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=python&message=playground&color=blue&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/MrRioja/OmniStack-8?color=yellow&logo=License&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/MrRioja/pythonPlayground?color=yellow&logo=License&style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -85,9 +85,12 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git@github.com:MrRioja/LoggiTricks.git
+$ git clone git@github.com:MrRioja/pythonPlayground.git
 
-# Acesse a pasta do desafio no terminal/cmd
+# Acesse a pasta do projeto
+$ cd pythonPlayground
+
+# Acesse a pasta de um desafio no terminal/cmd
 $ cd CamelCase
 
 # Execute a solução em Python ou NodeJS executando os respectivos arquivos que estarão dentro das pastas dos desafios
