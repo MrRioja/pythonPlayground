@@ -13,6 +13,3 @@ def camel_case(s):
     words = len(re.findall("[A-Z]", s))
 
     return words + 1
-
-
-print(camel_case("saveChangesInTheEditor"))
