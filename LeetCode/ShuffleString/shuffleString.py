@@ -16,9 +16,3 @@ def restore_string(s: str, indices: List[int]) -> str:
         unscrambled_word += s[indices.index(index)]
 
     return unscrambled_word
-
-
-s = "aaiougrt"
-indices = [4, 0, 2, 6, 7, 3, 1, 5]
-
-print(restore_string(s, indices))
