@@ -23,13 +23,8 @@ def plus_minus(arr):
         else:
             zero += 1
 
-    print(
+    return (
         f'{(positive/total):.6f}',
-        f'\n{negative/total:.6f}',
-        f'\n{zero/total:.6f}'
+        f'{negative/total:.6f}',
+        f'{zero/total:.6f}'
     )
-
-
-arr = [1, 1, 0, -1, -1]
-
-plus_minus(arr)
