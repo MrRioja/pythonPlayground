@@ -15,9 +15,3 @@ def num_jewels_in_stones(jewels: str, stones: str) -> int:
             num_jewels += 1
 
     return num_jewels
-
-
-jewels = "z"
-stones = "ZZ"
-
-print(num_jewels_in_stones(jewels, stones))
