@@ -31,10 +31,3 @@ def kangaroo(x1, v1, x2, v2):
         jump += 1
 
     return 'NO'
-
-
-parameters = (4523, 8092, 9419, 8076)
-
-x1, v1, x2, v2 = parameters
-
-print(kangaroo(x1, v1, x2, v2))
