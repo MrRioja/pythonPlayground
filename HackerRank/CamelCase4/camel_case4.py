@@ -17,24 +17,26 @@ import re
 
 word = input('Type something: ')
 
-[operation, typeValue, value] = word.split(';')
 
-if operation == 'S':
-    allMatch = re.findall('[A-Z]', value)
+def camel_case(word):
+    [operation, typeValue, value] = word.split(';')
 
-    for match in allMatch:
-        value = value.replace(match, ' ' + match.lower())
+    if operation == 'S':
+        allMatch = re.findall('[A-Z]', value)
 
-    print(value.replace('()', '').strip())
-else:
-    allMatch = re.findall('\s\w', value)
+        for match in allMatch:
+            value = value.replace(match, ' ' + match.lower())
 
-    for match in allMatch:
-        value = value.replace(match, match.strip().upper())
-
-    if typeValue == 'V':
-        print(value)
-    elif typeValue == 'M':
-        print(value + '()')
+        return value.replace('()', '').strip()
     else:
-        print(value.replace(value[0], value[0].upper(), 1))
+        allMatch = re.findall('\s\w', value)
+
+        for match in allMatch:
+            value = value.replace(match, match.strip().upper())
+
+        if typeValue == 'V':
+            return value
+        elif typeValue == 'M':
+            return value + '()'
+        else:
+            return value.replace(value[0], value[0].upper(), 1)
