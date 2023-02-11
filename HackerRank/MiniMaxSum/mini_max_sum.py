@@ -12,9 +12,4 @@ def mini_max_sum(arr):
     min_sum = middle_numbers_sum + sorted_arr[0]
     max_sum = middle_numbers_sum + sorted_arr[-1]
 
-    print(min_sum, max_sum)
-
-
-arr = [7, 69, 2, 221, 8974]
-
-mini_max_sum(arr)
+    return (min_sum, max_sum)
