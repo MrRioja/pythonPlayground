@@ -38,12 +38,3 @@ def get_sum_diagonal_right_left(array):
         counter += 1
 
     return sum_diagonal
-
-
-array = [
-    [11, 2, 4],
-    [4, 5, 6],
-    [10, 8, -12],
-]
-
-print(get_diagonal_difference(array))
