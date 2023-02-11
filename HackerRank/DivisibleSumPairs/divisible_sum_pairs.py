@@ -15,9 +15,3 @@ def divisible_sum_pairs(n, k, ar):
                 count += 1
 
     return count
-
-
-n = 6
-k = 3
-ar = [1, 3, 2, 6, 1, 2]
-print(divisible_sum_pairs(n, k, ar))
