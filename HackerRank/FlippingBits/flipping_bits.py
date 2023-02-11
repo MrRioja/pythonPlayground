@@ -21,8 +21,3 @@ def flipping_bits(n):
               for index, n in enumerate(n_binary_inverted, 1)]
 
     return sum(result)
-
-
-print(flipping_bits(2147483647))
-print(flipping_bits(1))
-print(flipping_bits(0))
