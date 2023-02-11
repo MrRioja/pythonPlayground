@@ -1,5 +1,5 @@
 import pytest
-from shuffleString import restore_string
+from shuffle_string import restore_string
 
 
 @pytest.mark.parametrize("string,indices,expected", [
