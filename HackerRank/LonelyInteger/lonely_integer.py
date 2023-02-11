@@ -9,8 +9,3 @@ def lonely_integer(a):
     int_count = Counter(a)
 
     return [x for (x, y) in int_count.items() if y == 1][0]
-
-
-a = [1, 2, 3, 4, 3, 2, 1]
-
-print(lonely_integer(a))
