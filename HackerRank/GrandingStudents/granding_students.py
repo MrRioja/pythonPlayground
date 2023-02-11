@@ -31,6 +31,3 @@ def grading_students(grades):
             round_grades.append(round_grade)
 
     return round_grades
-
-
-print(grading_students([98, 84, 99, 29, 57, 100]))
