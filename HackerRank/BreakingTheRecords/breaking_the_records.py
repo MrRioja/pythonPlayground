@@ -28,10 +28,4 @@ def breaking_records(scores):
             min_score[0] += 1
             min_score[1] = score
 
-    print(max_score[0], min_score[0])
-
-
-scores = [12, 24, 10, 24]
-scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42]
-
-breaking_records(scores)
+    return (max_score[0], min_score[0])
