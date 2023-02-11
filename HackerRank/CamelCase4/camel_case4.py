@@ -15,8 +15,6 @@
 
 import re
 
-word = input('Type something: ')
-
 
 def camel_case(word):
     [operation, typeValue, value] = word.split(';')
@@ -29,7 +27,7 @@ def camel_case(word):
 
         return value.replace('()', '').strip()
     else:
-        allMatch = re.findall('\s\w', value)
+        allMatch = re.findall(r'\s\w', value)
 
         for match in allMatch:
             value = value.replace(match, match.strip().upper())
