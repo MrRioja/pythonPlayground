@@ -39,13 +39,5 @@ def matching_strings(strings, queries):
                 total_per_item[query] += 1
 
         results.append(total_per_item[query])
-
+    print(results)
     return results
-
-
-queries = ['abcde', 'sdaklfj', 'asdjf', 'na', 'basdn']
-strings = ['13', 'abcde', 'sdaklfj', 'asdjf', 'na', 'basdn', 'sdaklfj',
-           'asdjf', 'na', 'asdjf', 'na', 'basdn', 'sdaklfj', 'asdjf', '5']
-
-
-print(matching_strings(strings, queries))
