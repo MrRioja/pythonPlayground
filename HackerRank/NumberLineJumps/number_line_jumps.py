@@ -13,21 +13,21 @@
 # After one jump, they are both at x = 3, (x1 + v1 = 2 + 1, x2 + v2 = 1 + 2), so the answer is YES
 
 # Other solution
-# def kangaroo(x1, v1, x2, v2):
-#     if (v1<=v2):
-#         return "NO"
-#     return("YES" if (x2-x1)%(v2-v1)==0 else "NO")
-
 def kangaroo(x1, v1, x2, v2):
-    if x2 > x1 and v2 > v1:
-        return 'NO'
+    if (v1 <= v2):
+        return "NO"
+    return("YES" if (x2-x1) % (v2-v1) == 0 else "NO")
 
-    jump = 1
+# def kangaroo(x1, v1, x2, v2):
+#     if x2 > x1 and v2 > v1:
+#         return 'NO'
 
-    while jump < 1000:
-        if (x1 + (v1*jump)) == (x2 + (v2*jump)):
-            print(jump)
-            return 'YES'
-        jump += 1
+#     jump = 1
 
-    return 'NO'
+#     while jump < 1000:
+#         if (x1 + (v1*jump)) == (x2 + (v2*jump)):
+#             print(jump)
+#             return 'YES'
+#         jump += 1
+
+#     return 'NO'
