@@ -36,9 +36,3 @@ def time_conversion(s):
             converted_hour = str(hours)
 
     return converted_hour + ":" + minutes + ":" + seconds
-
-
-print(time_conversion("07:05:45PM"))  # 19:05:45
-print(time_conversion("12:37:58AM"))  # 00:37:58
-print(time_conversion("08:37:58PM"))  # 20:37:58
-print(time_conversion("07:45:18AM"))  # 07:45:18
