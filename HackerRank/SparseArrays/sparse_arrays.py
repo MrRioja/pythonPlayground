@@ -39,5 +39,4 @@ def matching_strings(strings, queries):
                 total_per_item[query] += 1
 
         results.append(total_per_item[query])
-    print(results)
     return results
