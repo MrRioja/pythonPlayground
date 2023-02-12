@@ -12,6 +12,3 @@ def swap_case(s):
         w.lower()
         if re.match(upper, w) else w.upper() for w in s
     ])
-
-
-print(swap_case('WwW.TeStE.cOm'))
