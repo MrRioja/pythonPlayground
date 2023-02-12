@@ -20,7 +20,4 @@ def staircase(n):
             else:
                 staircase += " "
 
-    print(staircase)
-
-
-staircase(3)
+    return staircase
