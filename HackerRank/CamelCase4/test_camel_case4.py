@@ -22,5 +22,5 @@ def test_camel_case(word, expected):
     ("C;M;white sheet of paper", "incorrect_value"),
     ("S;V;pictureFrame", "incorrect_value"),
 ])
-def test_camel_case(word, expected):
+def test_camel_case_error(word, expected):
     assert camel_case(word) != expected
