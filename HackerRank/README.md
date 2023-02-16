@@ -20,10 +20,11 @@ Segue na tabela abaixo todos os desafios da plataforma que foram realizados, ond
 | 10  |                [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem)                 |    Fácil    |
 | 11  |                    [Swap case](https://www.hackerrank.com/challenges/swap-case/problem)                    |    Fácil    |
 | 12  |     [Plus Minus](https://www.hackerrank.com/challenges/three-month-preparation-kit-plus-minus/problem)     |    Fácil    |
-| 13  |       [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=internal-search)       |    Fácil    |
-| 14  |      [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem?h_r=internal-search)      |    Médio    |
+| 13  |                 [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)                 |    Fácil    |
+| 14  |                [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)                |    Médio    |
 | 15  | [Lonely Integer](https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem) |    Fácil    |
 | 16  |                [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)                |    Fácil    |
 | 17  |    [CamelCase 4](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem)     |   Difícil   |
 | 18  |                [Counting Sort](https://www.hackerrank.com/challenges/countingsort1/problem)                |    Fácil    |
 | 19  |          [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)          |    Fácil    |
+| 20  |             [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)             |    Fácil    |
