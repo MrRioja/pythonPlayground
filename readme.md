@@ -71,16 +71,15 @@ $ python3 camelCase.py
 # NodeJS
 $ node camelCase.js
 
+# Execute o testes dos scripts Python
+$ pytest
+
 # Para executar os notebooks basta abri-los com uma ferramenta compatível com notebooks python
 ```
 
 ## Tecnologias
 
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="100" />
-
-<img align="left" src="./readme/py.png" alt="Python" height="60" />
-
-<br><br><br><br>
+[![My Skills](https://skillicons.dev/icons?i=js,py)](https://skillicons.dev)
 
 ## Autor
 
