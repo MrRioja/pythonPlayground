@@ -6,7 +6,7 @@
 // Given , determine the number of words in S.
 // Ex: oneTwoThree, has three words.
 
-function camelCase(s) {
+export function camelCase(s) {
   let words = 1;
 
   for (const element of s) {
@@ -17,5 +17,3 @@ function camelCase(s) {
 
   return words;
 }
-
-console.log(camelCase("saveChangesInTheEditor"));
