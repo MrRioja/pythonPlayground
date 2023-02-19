@@ -4,7 +4,7 @@
 // Example: arr = [1, 2, 3, 4, 5, 6], k = 5
 // Three pairs meet the criteria: [1, 4], [2, 3] and [4, 6].
 
-function divisibleSumPairs(n, k, ar) {
+export function divisibleSumPairs(n, k, ar) {
   let count = 0;
 
   for (let i = 0; i < n; i++) {
@@ -18,9 +18,3 @@ function divisibleSumPairs(n, k, ar) {
 
   return count;
 }
-
-const n = 6;
-const k = 3;
-const ar = [1, 3, 2, 6, 1, 2];
-
-console.log(divisibleSumPairs(n, k, ar));
