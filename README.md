@@ -74,6 +74,11 @@ $ node camelCase.js
 # Execute o testes dos scripts Python
 $ pytest
 
+# Execute o testes dos scripts Javascript
+$ npm run test
+# Caso prefira Yarn
+$ yarn test
+
 # Para executar os notebooks basta abri-los com uma ferramenta compatível com notebooks python
 ```
 
