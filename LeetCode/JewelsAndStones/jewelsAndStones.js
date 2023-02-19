@@ -10,7 +10,7 @@
  * @param {string} stones
  * @return {number}
  */
-function numJewelsInStones(jewels, stones) {
+export function numJewelsInStones(jewels, stones) {
   let numJewels = 0;
 
   for (const stone of stones) {
@@ -23,8 +23,3 @@ function numJewelsInStones(jewels, stones) {
 
   return numJewels;
 }
-
-const jewels = "z";
-const stones = "ZZ";
-
-console.log(numJewelsInStones(jewels, stones));
