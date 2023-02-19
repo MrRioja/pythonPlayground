@@ -14,7 +14,7 @@
 // Given the scores for a season, determine the number of times Maria breaks her records for most and least points
 // scored during the season.
 
-function breakingRecords(scores) {
+export function breakingRecords(scores) {
   let min_score = [0, scores[0]];
   let max_score = [0, scores[0]];
 
@@ -29,9 +29,5 @@ function breakingRecords(scores) {
     }
   }
 
-  console.log(max_score[0], min_score[0]);
+  return [max_score[0], min_score[0]];
 }
-
-const scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42];
-
-breakingRecords(scores);
