@@ -1,0 +1,16 @@
+{
+  "name": "PythonPlayground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MrRioja/pythonPlayground.git",
+  "author": "Luiz Rioja <lulyrioja@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "cov": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.28.5",
+    "vitest": "^0.28.5"
+  }
+}
