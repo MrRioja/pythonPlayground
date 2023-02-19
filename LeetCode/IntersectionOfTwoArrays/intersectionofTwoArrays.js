@@ -9,7 +9,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-function intersection(nums1, nums2) {
+export function intersection(nums1, nums2) {
   let intersectionNums = [];
 
   nums1.forEach((num1) => {
@@ -22,8 +22,3 @@ function intersection(nums1, nums2) {
 
   return intersectionNums;
 }
-
-const nums1 = [4, 9, 5];
-const nums2 = [9, 4, 9, 8, 4];
-
-console.log(intersection(nums1, nums2));
