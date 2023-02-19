@@ -41,6 +41,10 @@ A lista pode ser encontrada aqui:
 
 [Lista do HackerRank](HackerRank/README.md)
 
+|                                                                                                                                   Total de desafios realizados                                                                                                                                    |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![LeetCode](https://img.shields.io/github/directory-file-count/MrRioja/PythonPlayground/LeetCode?label=LeetCode&style=for-the-badge&type=dir) ![HackerRank](https://img.shields.io/github/directory-file-count/MrRioja/PythonPlayground/HackerRank?label=HackerRank&style=for-the-badge&type=dir) |
+
 ## Python Fluente
 
 Também estão presentes nesse repo minhas anotações realizadas durante a leitura dos capítulos do livro [Python Fluente](https://books.google.com.br/books?id=XqbfCgAAQBAJ&lpg=PA4&hl=pt-BR&pg=PA4#v=onepage&q&f=false).
