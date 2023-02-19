@@ -5,15 +5,12 @@
 // Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
 // Output: "leetcode"
 
-const s = "codeleet";
-const indices = [4, 5, 6, 7, 0, 2, 1, 3];
-
 /**
  * @param {string} s
  * @param {number[]} indices
  * @return {string}
  */
-function restoreString(s, indices) {
+export function restoreString(s, indices) {
   let unscrambledWord = "";
 
   for (let index = 0; index < s.length; index++) {
@@ -22,5 +19,3 @@ function restoreString(s, indices) {
 
   return unscrambledWord;
 }
-
-console.log(restoreString(s, indices));
