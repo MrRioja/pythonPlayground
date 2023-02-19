@@ -5,7 +5,7 @@
 // 11111111111111111111111111110110 = 4294967286
 // Return 4294967286
 
-function flippingBits(n) {
+export function flippingBits(n) {
   let n_binary = "";
   let n_binary_inverted = "";
   let quotient = n;
@@ -31,7 +31,3 @@ function flippingBits(n) {
 
   return result;
 }
-
-console.log(flippingBits(2147483647));
-console.log(flippingBits(1));
-console.log(flippingBits(0));
