@@ -10,7 +10,7 @@
 // 4	1	      [0, 3, 1, 1]
 // The frequency array is [0, 3, 1, 1]. These values can be used to create the sorted array as well: sorted = [1, 1, 1, 2, 3].
 
-function countingSort(arr) {
+export function countingSort(arr) {
   let results = new Array(100).fill(0);
 
   arr.forEach((element) => {
@@ -19,6 +19,3 @@ function countingSort(arr) {
 
   return results;
 }
-
-const arr = [1, 1, 3, 2, 1];
-console.log(countingSort(arr));
