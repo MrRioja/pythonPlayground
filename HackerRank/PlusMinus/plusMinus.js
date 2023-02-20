@@ -8,18 +8,14 @@
 // 0.400000
 // 0.200000
 
-function plusMinus(arr) {
+export function plusMinus(arr) {
   const positive = arr.filter((num) => num > 0);
   const negative = arr.filter((num) => num < 0);
   const zero = arr.filter((num) => num === 0);
 
-  console.log(
+  return [
     `${(positive.length / arr.length).toFixed(6)}`,
-    `\n${(negative.length / arr.length).toFixed(6)}`,
-    `\n${(zero.length / arr.length).toFixed(6)}`
-  );
+    `${(negative.length / arr.length).toFixed(6)}`,
+    `${(zero.length / arr.length).toFixed(6)}`,
+  ];
 }
-
-const arr = [1, 1, 0, -1, -1];
-
-plusMinus(arr);
