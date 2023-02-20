@@ -2,7 +2,7 @@
 // Given an array of integers, where all elements but one occur twice, find the unique element.
 // Ex: a = [1, 2, 3, 4, 3, 2, 1]. The unique element is 4.
 
-function lonelyInteger(a) {
+export function lonelyInteger(a) {
   const lonelyIntegers = a.filter((element, index) => {
     if (
       a.findIndex((num) => num === element) ===
@@ -14,7 +14,3 @@ function lonelyInteger(a) {
 
   return lonelyIntegers[0];
 }
-
-const a = [1, 2, 3, 4, 3, 2, 1];
-
-console.log(lonelyInteger(a));
