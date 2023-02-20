@@ -21,8 +21,6 @@ export function kangaroo(x1, v1, x2, v2) {
 
   while (jump < 10000) {
     if (x1 + v1 * jump == x2 + v2 * jump) {
-      console.log(jump);
-
       return "YES";
     }
 
