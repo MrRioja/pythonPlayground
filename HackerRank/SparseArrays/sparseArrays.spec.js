@@ -25,6 +25,11 @@ describe("SparseArrays", () => {
       ],
       expected: [1, 3, 4, 3, 2],
     },
+    {
+      queries: ["ab", "abc", "ab"],
+      strings: ["ab", "ab", "abc"],
+      expected: [2, 1, 2],
+    },
   ])(
     "should be able to determine how many times each query string occurs in the list of input strings",
     ({ strings, queries, expected }) => {
