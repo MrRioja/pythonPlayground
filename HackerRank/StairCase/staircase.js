@@ -7,7 +7,7 @@
 //  ###
 // ####
 
-function staircase(n) {
+export function staircase(n) {
   let staircase = "";
 
   for (let index = 0; index < n; index++) {
@@ -23,7 +23,5 @@ function staircase(n) {
       }
     }
   }
-  console.log(staircase);
+  return staircase;
 }
-
-staircase(10);
