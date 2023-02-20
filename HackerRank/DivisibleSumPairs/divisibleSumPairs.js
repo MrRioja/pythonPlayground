@@ -10,7 +10,6 @@ export function divisibleSumPairs(n, k, ar) {
   for (let i = 0; i < n; i++) {
     for (let j = i + 1; j < n; j++) {
       if (ar[i] < ar[j] && (ar[i] + ar[j]) % k == 0) {
-        console.log(ar[i], ar[j]);
         count += 1;
       }
     }
