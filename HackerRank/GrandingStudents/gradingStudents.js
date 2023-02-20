@@ -11,7 +11,7 @@
 // grade = 57 do not round(60 - 57 is 3 or higher)
 // Given the initial value of grade for each of Sam's n students, write code to automate the rounding process.
 
-function gradingStudents(grades) {
+export function gradingStudents(grades) {
   let roundGrades = [];
 
   grades.forEach((grade) => {
@@ -32,5 +32,3 @@ function gradingStudents(grades) {
 
   return roundGrades;
 }
-
-console.log(gradingStudents([98, 84, 99, 29, 57, 100]));
