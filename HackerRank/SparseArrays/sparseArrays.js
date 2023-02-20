@@ -10,7 +10,7 @@
 //   return queries.map((q) => strings.filter((s) => s === q).length);
 // }
 
-function matchingStrings(strings, queries) {
+export function matchingStrings(strings, queries) {
   const total_per_item = {};
   const results = [];
 
@@ -34,24 +34,3 @@ function matchingStrings(strings, queries) {
 
   return results;
 }
-
-const queries = ["abcde", "sdaklfj", "asdjf", "na", "basdn"];
-const strings = [
-  "13",
-  "abcde",
-  "sdaklfj",
-  "asdjf",
-  "na",
-  "basdn",
-  "sdaklfj",
-  "asdjf",
-  "na",
-  "asdjf",
-  "na",
-  "basdn",
-  "sdaklfj",
-  "asdjf",
-  "5",
-];
-
-console.log(matchingStrings(strings, queries));
