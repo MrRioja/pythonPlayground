@@ -2,7 +2,7 @@
 // convert all lowercase letters to uppercase letters and vice versa.
 // Ex: Www.HackerRank.com => wWW.hACKERrANK.COM
 
-function swapCase(s) {
+export function swapCase(s) {
   return s
     .split("")
     .map((letter) =>
@@ -10,7 +10,3 @@ function swapCase(s) {
     )
     .join("");
 }
-
-const string = "Www.HackerRank.com"; // wWW.hACKERrANK.COM
-
-console.log(swapCase(string));
