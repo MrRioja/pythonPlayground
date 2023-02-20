@@ -5,7 +5,7 @@
 // Example: s = "SOSTOT"
 // The original message was SOSSOS. Two of the message's characters were changed in transit.
 
-function marsExploration(s) {
+export function marsExploration(s) {
   let changed_in_transit = 0;
   const splitted_string = s.split("");
   const expected_messages = s.length / 3;
@@ -21,6 +21,3 @@ function marsExploration(s) {
 
   return changed_in_transit;
 }
-
-const s = "SOSTOT";
-console.log(marsExploration(s));
