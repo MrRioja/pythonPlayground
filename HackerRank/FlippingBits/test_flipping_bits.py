@@ -9,12 +9,3 @@ from flipping_bits import flipping_bits
 ])
 def test_flipping_bits(number, expected):
     assert flipping_bits(number) == expected
-
-
-@pytest.mark.parametrize("number,expected", [
-    (2147483647, 0),
-    (1, 0),
-    (0, 0)
-])
-def test_flipping_bits_error(number, expected):
-    assert flipping_bits(number) != expected

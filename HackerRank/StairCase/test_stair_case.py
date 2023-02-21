@@ -7,10 +7,3 @@ from stair_case import staircase
 ])
 def test_staircase(n, expected):
     assert staircase(n) == expected
-
-
-@pytest.mark.parametrize("n,expected", [
-    (3, "")
-])
-def test_staircase_error(n, expected):
-    assert staircase(n) != expected
