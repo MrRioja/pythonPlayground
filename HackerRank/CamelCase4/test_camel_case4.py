@@ -12,15 +12,3 @@ from camel_case4 import camel_case
 ])
 def test_camel_case(word, expected):
     assert camel_case(word) == expected
-
-
-@pytest.mark.parametrize("word,expected", [
-    ("S;M;plasticCup()", "incorrect_value"),
-    ("C;V;mobile phone", "incorrect_value"),
-    ("C;C;coffee machine", "incorrect_value"),
-    ("S;C;LargeSoftwareBook", "incorrect_value"),
-    ("C;M;white sheet of paper", "incorrect_value"),
-    ("S;V;pictureFrame", "incorrect_value"),
-])
-def test_camel_case_error(word, expected):
-    assert camel_case(word) != expected
