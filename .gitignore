@@ -5,3 +5,4 @@ htmlcov
 .coverage
 coverage/
 node_modules
+pytest-coverage.txt
