@@ -6,11 +6,15 @@
   "author": "Luiz Rioja <lulyrioja@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "test": "vitest",
     "cov": "vitest run --coverage"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@vitest/coverage-c8": "^0.28.5",
+    "husky": "^8.0.3",
     "vitest": "^0.28.5"
   }
 }
