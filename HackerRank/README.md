@@ -29,3 +29,4 @@ Segue na tabela abaixo todos os desafios da plataforma que foram realizados, ond
 | 19  |          [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)          |    Fácil    |
 | 20  |             [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)             |    Fácil    |
 | 21  |                     [Pangrams](https://www.hackerrank.com/challenges/pangrams/problem)                     |    Fácil    |
+| 22  |             [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)             |    Fácil    |
