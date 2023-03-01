@@ -12,5 +12,25 @@
 # Finally, the hiker returns to sea level and ends the hike.
 
 
+def level_sea():
+    level = 0
+    valley = 0
+
+    def change_level(step):
+        nonlocal level, valley
+        level += 1 if step == 'U' else -1
+        valley += 1 if (level == 0 and step == 'U') else 0
+
+        return valley
+    return change_level
+
+
 def counting_valleys(steps, path):
-    return
+
+    counter_valleys = level_sea()
+    total_valleys = [
+        counter_valleys(step)
+        for step in path
+    ]
+
+    return total_valleys[-1]
