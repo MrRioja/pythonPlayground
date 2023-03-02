@@ -11,6 +11,27 @@
 // The hiker first enters a valley 2 units deep. Then they climb out and up onto a mountain 2 units high.
 // Finally, the hiker returns to sea level and ends the hike.
 
-function countingValleys(steps, path) {
-  return;
+function level_sea() {
+  let level = 0;
+  let valley = 0;
+
+  function change_level(step) {
+    level += step === "U" ? 1 : -1;
+    valley += level == 0 && step == "U" ? 1 : 0;
+
+    return valley;
+  }
+
+  return change_level;
+}
+
+export function countingValleys(steps, path) {
+  const counter_valleys = level_sea();
+  const pathArray = path.split("");
+
+  const total_valleys = pathArray.map((step) => {
+    return counter_valleys(step);
+  });
+
+  return total_valleys.pop();
 }
