@@ -5,4 +5,7 @@
 # The string contains all letters in the English alphabet, so return pangram.
 
 def pangrams(s):
-    return
+    codes = list(range(65, 91)) + [32]
+    english_alphabet = {chr(code) for code in codes}
+
+    return 'pangram' if english_alphabet.issubset(s.upper()) else 'not pangram'
