@@ -30,3 +30,4 @@ Segue na tabela abaixo todos os desafios da plataforma que foram realizados, ond
 | 20  |             [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)             |    Fácil    |
 | 21  |                     [Pangrams](https://www.hackerrank.com/challenges/pangrams/problem)                     |    Fácil    |
 | 22  |             [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)             |    Fácil    |
+| 23  |               [Sales By Match](https://www.hackerrank.com/challenges/sock-merchant/problem)                |    Fácil    |
