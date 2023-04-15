@@ -4,6 +4,18 @@
 // Example: s = "The quick brown fox jumps over the lazy dog"
 // The string contains all letters in the English alphabet, so return pangram.
 
-function pangrams(s) {
-  return;
+export function pangrams(s) {
+  const codes = Array.from({ length: 26 }, (_, i) => i + 65).concat([32]);
+  const english_alphabet = new Set(
+    codes.map((code) => String.fromCharCode(code))
+  );
+
+  const letters = new Set(
+    s
+      .toUpperCase()
+      .split("")
+      .filter((c) => english_alphabet.has(c))
+  );
+
+  return letters.size === english_alphabet.size ? "pangram" : "not pangram";
 }
