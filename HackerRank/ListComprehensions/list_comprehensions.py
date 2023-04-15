@@ -9,22 +9,16 @@
 # [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 1, 0], [0, 1, 1], [1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 2]]
 
 
-if __name__ == '__main__':
+def list_comprehensions():
+    x = int(input("Digite o valor de x: "))
+    y = int(input("Digite o valor de y: "))
+    z = int(input("Digite o valor de z: "))
+    n = int(input("Digite o valor de n: "))
 
-    def list_comprehensions():
-        x = int(input("Digite o valor de x: "))
-        y = int(input("Digite o valor de y: "))
-        z = int(input("Digite o valor de z: "))
-        n = int(input("Digite o valor de n: "))
-
-        print(
-            sorted([
-                [i, j, k]
-                for i in range(x+1)
-                for j in range(y+1)
-                for k in range(z+1)
-                if (i + j + k) != n
-            ])
-        )
-
-    list_comprehensions()
+    return sorted([
+        [i, j, k]
+        for i in range(x+1)
+        for j in range(y+1)
+        for k in range(z+1)
+        if (i + j + k) != n
+    ])
