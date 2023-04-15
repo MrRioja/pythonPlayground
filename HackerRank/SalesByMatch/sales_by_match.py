@@ -8,7 +8,7 @@
 from collections import Counter
 
 
-def sock_merchant(n, ar):
+def sock_merchant(_, ar):
     pairs = 0
 
     for total in list(Counter(ar).values()):
