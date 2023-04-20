@@ -34,3 +34,5 @@ Segue na tabela abaixo todos os desafios da plataforma que foram realizados, ond
 | 24  |                  [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)                  |    Fácil    |
 | 25  | [Sub Array Division 2](https://www.hackerrank.com/challenges/three-month-preparation-kit-the-birthday-bar/problem) |    Fácil    |
 | 26  |                  [Permuting Two Arrays](https://www.hackerrank.com/challenges/two-arrays/problem)                  |    Fácil    |
+| 27  |    [Zig Zag Sequence](https://www.hackerrank.com/challenges/one-week-preparation-kit-zig-zag-sequence/problem)     |    Médio    |
+| 28  |       [XOR Strings 3](https://www.hackerrank.com/challenges/three-month-preparation-kit-strings-xor/problem)       |    Fácil    |
