@@ -8,6 +8,15 @@
 //     K = 1
 // A valid A', B' is A' = [1, 0] and B' = [0, 2]: 1+0 >= 1 and 0+2 >= 1. Return YES.
 
-function twoArrays(k, A, B) {
-  return;
+export function twoArrays(k, a, b) {
+  const a_sorted = a.sort((a, b) => a - b);
+  const b_reversed_sorted = b.sort((a, b) => b - a);
+
+  for (let index = 0; index < a.length; index++) {
+    if (a_sorted[index] + b_reversed_sorted[index] < k) {
+      return "NO";
+    }
+  }
+
+  return "YES";
 }
