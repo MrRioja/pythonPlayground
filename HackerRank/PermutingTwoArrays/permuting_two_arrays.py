@@ -9,5 +9,12 @@
 # A valid A', B' is A' = [1, 0] and B' = [0, 2]: 1+0 >= 1 and 0+2 >= 1. Return YES.
 
 
-def two_arrays(k, A, B):
-    return
+def two_arrays(k, a, b):
+    a_sorted = sorted(a)
+    b_reversed_sorted = sorted(b, reverse=True)
+
+    for index in range(len(a)):
+        if (a_sorted[index] + b_reversed_sorted[index]) < k:
+            return 'NO'
+
+    return 'YES'
