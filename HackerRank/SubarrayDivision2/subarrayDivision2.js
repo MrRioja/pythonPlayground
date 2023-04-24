@@ -11,6 +11,20 @@
 //  Lily wants to find segments summing to Ron's birth day, d=4 with a length equalling his birth month, m=2.
 //  In this case, there are two segments meeting her criteria: [2,2] and [1,3].
 
-function birthday(s, d, m) {
-  return;
+export function birthday(s, d, m) {
+  let n_ways = 0;
+
+  for (let index = m - 1; index <= s.length; index++) {
+    let total = s[index];
+
+    for (let item = index - m + 1; item < index; item++) {
+      total += s[item];
+    }
+
+    if (total == d) {
+      n_ways += 1;
+    }
+  }
+
+  return n_ways;
 }
