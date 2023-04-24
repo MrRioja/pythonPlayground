@@ -11,5 +11,17 @@
 # Lily wants to find segments summing to Ron's birth day, d=4 with a length equalling his birth month, m=2.
 # In this case, there are two segments meeting her criteria: [2,2] and [1,3].
 
+
 def birthday(s, d, m):
-    return
+    n_ways = 0
+
+    for index in range(m-1, len(s)):
+        total = s[index]
+
+        for item in range((index-m) + 1, index):
+            total += s[item]
+
+        if total == d:
+            n_ways += 1
+
+    return n_ways
