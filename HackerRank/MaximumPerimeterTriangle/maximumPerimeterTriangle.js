@@ -10,6 +10,32 @@
 // The triplet(1, 2, 3) will not form a triangle. Neither will(4, 5, 10) or (2, 3, 5), so the problem is reduced to
 // (2, 3, 4) and (3, 4, 5). The longer perimeter is 3 + 5 + 5 = 12.
 
-function maximumPerimeterTriangle(sticks) {
-  return;
+export function maximumPerimeterTriangle(sticks) {
+  let max_perimeter = 0;
+  let possibles_triangles = [];
+  let sorted_sticks = sticks.sort((a, b) => a - b);
+
+  for (let i = 2; i < sorted_sticks.length; i++) {
+    let [a, b, c] = [
+      sorted_sticks[i - 2],
+      sorted_sticks[i - 1],
+      sorted_sticks[i],
+    ];
+
+    if (a != 0 && b != 0 && c != 0 && a + b > c) {
+      if (a + b + c > max_perimeter) {
+        max_perimeter = a + b + c;
+        possibles_triangles = [];
+        possibles_triangles.push([a, b, c]);
+      } else if (a + b + c == max_perimeter) {
+        possibles_triangles.push([a, b, c]);
+      }
+    }
+  }
+
+  if (possibles_triangles.length > 0) {
+    return possibles_triangles[0];
+  } else {
+    return [-1];
+  }
 }
