@@ -11,16 +11,15 @@
 # (2, 3, 4) and (3, 4, 5). The longer perimeter is 3 + 4 + 5 = 12.
 
 
-from itertools import combinations
-
-
 def maximum_perimeter_triangle(sticks):
 
     max_perimeter = 0
     possibles_triangles = []
     sorted_sticks = sorted(sticks)
 
-    for a, b, c in combinations(sorted_sticks, 3):
+    for i in range(2, len(sorted_sticks)):
+        a, b, c = sorted_sticks[i-2], sorted_sticks[i-1], sorted_sticks[i]
+
         if a != 0 and b != 0 and c != 0 and ((a + b) > c):
             if (a + b + c) > max_perimeter:
                 max_perimeter = a + b + c
