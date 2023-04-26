@@ -12,4 +12,10 @@
 
 
 def page_count(n, p):
-    return
+    white_pages = 2 if n % 2 == 0 else 1
+    pages = list(range(n + white_pages))
+    pages_to_turn_ltr = pages.index(p) // 2
+    pages.reverse()
+    pages_to_turn_rtl = pages.index(p) // 2
+
+    return min(pages_to_turn_ltr, pages_to_turn_rtl)
