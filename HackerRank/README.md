@@ -36,5 +36,5 @@ Segue na tabela abaixo todos os desafios da plataforma que foram realizados, ond
 | 26  |                  [Permuting Two Arrays](https://www.hackerrank.com/challenges/two-arrays/problem)                  |    Fácil    |   ✅   |
 | 27  |    [Zig Zag Sequence](https://www.hackerrank.com/challenges/one-week-preparation-kit-zig-zag-sequence/problem)     |    Médio    |   ✅   |
 | 28  |       [XOR Strings 3](https://www.hackerrank.com/challenges/three-month-preparation-kit-strings-xor/problem)       |    Fácil    |   ✅   |
-| 29  |                     [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem)                     |    Fácil    |   🏗️   |
-| 30  |       [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem)       |    Fácil    |   🏗️   |
+| 29  |                     [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem)                     |    Fácil    |   ✅   |
+| 30  |       [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem)       |    Fácil    |   ✅   |
