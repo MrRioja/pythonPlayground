@@ -3,18 +3,6 @@
 # Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
 # - 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
 
-# def timeConversion(s):
-#     hour = int(s[:2])
-#     conversion = s[-2:]
-
-#     if conversion == 'PM':
-#         if hour != 12:
-#             hour = hour + 12
-#     else:
-#         if hour == 12:
-#             hour = 0
-
-#     return f'{hour:02d}{s[2:8]}'
 
 def time_conversion(s):
     hours = s.split(":")[0]
@@ -23,13 +11,13 @@ def time_conversion(s):
     turn = s.split(":")[2][2:4]
     converted_hour = ""
 
-    if (turn == "AM"):
-        if (int(hours) == 12):
+    if turn == "AM":
+        if int(hours) == 12:
             converted_hour = "00"
         else:
             converted_hour = str(hours)
     else:
-        if (int(hours) == 12):
+        if int(hours) == 12:
             converted_hour = str(hours)
         else:
             hours = int(hours) + 12
